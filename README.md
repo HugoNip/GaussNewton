@@ -57,7 +57,7 @@ sudo apt-get install liblapack-dev libsuitesparse-dev libcxsparse3 libgflags-dev
 ```
 Note:  
 If the installation is failed, please search the non-installed package by Google, 
-download and install it. Some packages have been saved in requiredPackages file.
+download and install it. Some packages have been saved in requiredPackages directory.
 
 #### Compile and Install
 ```
