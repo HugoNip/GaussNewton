@@ -47,6 +47,28 @@ make
 sudo make install 
 ```
 
+### Ceres Package
+#### Download
+https://github.com/ceres-solver/ceres-solver
+
+#### Required Dependences
+```
+sudo apt-get install liblapack-dev libsuitesparse-dev libcxsparse3 libgflags-dev libgoogle-glog-dev libgtest-dev
+```
+Note:  
+If the installation is failed, please search the non-installed package by Google, 
+download and install it. Some packages have been saved in requiredPackages file.
+
+#### Compile and Install
+```
+cd [path-to-pangolin]
+mkdir build
+cd build
+cmake ..
+make 
+sudo make install 
+```
+
 ## Compile this Project
 ```
 mkdir build
